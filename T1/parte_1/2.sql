@@ -1,0 +1,2 @@
+-- Criar usando a linguagem de programação do SGBD escolhido um procedimento que
+-- remova todos os índices de uma tabela informada como parâmetro.
