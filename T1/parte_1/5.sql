@@ -10,7 +10,7 @@
 CREATE TABLE transicoes (
     estado_atual TEXT NOT NULL,
     estado_proximo TEXT NOT NULL,
-    CONSTRAINT pk_transicoes PRIMARY KEY (estado_atual, estado_proximo)
+    CONSTRAINT pk_transicoes PRIMARY KEY (estado_atual, estado_proximo) -- aqui usei uma chave primária composta para nao ser necessario criar ua constraint
 );
 
 -- cria tabela da situacao atual dos estados
