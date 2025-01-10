@@ -24,7 +24,7 @@ CREATE TABLE situacao (
 CREATE OR REPLACE FUNCTION validar_transicao_estado()
 RETURNS TRIGGER AS $$
 BEGIN
-    -- Verifica se a transição de estado é válida
+    -- verifica se a transição de estado eh válida
     IF NOT EXISTS (
         SELECT 1
         FROM transicoes
