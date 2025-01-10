@@ -18,3 +18,8 @@ BEGIN
     END LOOP;
 END;
 $$;
+
+
+
+-- CALL drop_all_indexes('album');
+
