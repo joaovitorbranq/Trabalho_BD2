@@ -18,6 +18,6 @@ JOIN
 JOIN 
     pg_class AS cl_ref ON cl_ref.oid = con.confrelid
 WHERE 
-    con.contype = 'f'  -- foreign key
+    con.contype = 'f'  -- fk
 ORDER BY 
     table_name, constraint_name;
