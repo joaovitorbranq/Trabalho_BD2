@@ -6,3 +6,8 @@ O banco a ser usado no trabalho é o chinook-database, disponível em https://gi
 
 O esquema a ser utilizado está no arquivo Chinook-PostgreSql.sql, na raiz do repositório. 
 Basta criar um banco local e executar o script no Query Tool do pgadmin
+
+
+Autores:
+João Vitor Branquinho Ribeiro
+Yakson Menechini Chan
